@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 //middlewares
 app.use(express.json())
 app.use(cors({
-    origin:"https://expense-tracker-frontend-sage.vercel.app/",
+    origin:"https://expense-tracker-frontend-sage.vercel.app",
     credentials:true
 }))
 
